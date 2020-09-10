@@ -1,6 +1,6 @@
 ## JavaScript Coding Sample
 
-This repository contains a small application that consumes test score data and exposes the data via a REST API.  I have built a UI on top of the API with a simple wireframe given to me for a coding evaluation. I can take credit for all front end files as well as in the Express API.
+This repository contains a small application that consumes test score data and exposes the data via a REST API.  I have built a UI on top of the API with a simple wireframe given to me for a coding evaluation. I can take credit for all front end files as well as the server sent event connection in index.get.js in the Express API.
 
 ### About the application
 
