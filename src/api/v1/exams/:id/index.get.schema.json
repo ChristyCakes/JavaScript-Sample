@@ -1,0 +1,16 @@
+{
+  "id": "schoolbus.api.exam.id",
+  "title": "Exam result",
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "$ref": "schoolbus.exam.result"
+      }
+    },
+    "average": {
+      "type": "number"
+    }
+  }
+}

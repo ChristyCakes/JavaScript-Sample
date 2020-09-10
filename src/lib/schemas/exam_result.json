@@ -1,0 +1,14 @@
+{
+  "id": "schoolbus.exam_result",
+  "title": "Exam result",
+  "type": "object",
+  "properties": {
+    "studentId": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  },
+  "required": ["score", "studentId"]
+}

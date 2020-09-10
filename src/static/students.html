@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body style='font-family: sans-serif'>
+  <div>
+    <div class='header'>
+      <img src='./logo.png' height='60'>
+    </div>
+    <div class='wrap-body' style='display: flex'>
+      <div class='left-panel'>
+        <button id='exams' style='flex-grow: 1'><span class='dot'></span>Exams</button>
+        <button id='students' style='flex-grow: 1'><span class='dot'></span>Students</button>
+      </div>
+      <div class='body'>
+        <div>
+          <h2>Students</h2>
+        </div>
+        <div>
+          <table id='all-students-table'></table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='./students.js'></script>
+</body>
+
+</html>
