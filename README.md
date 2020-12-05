@@ -4,7 +4,7 @@ This repository contains a small application that consumes test score data and e
 
 ### About the application
 
-The application consumes data from `http://live-test-scores.herokuapp.com/scores`, using the [Server-Sent Events](https://www.w3.org/TR/2015/REC-eventsource-20150203/) protocol and stores the results in memory.
+The application consumes data from `http://live-test-scores.herokuapp.com/scores`, using the [Server-Sent Events](https://www.w3.org/TR/2015/REC-eventsource-20150203/) protocol and stores the results in memory. Though I am not the creater of this application, it can be cloned and run on a mac.
 
 
 ### About the tools
